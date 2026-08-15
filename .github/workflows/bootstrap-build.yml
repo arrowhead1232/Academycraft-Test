@@ -1,11 +1,6 @@
 name: Bootstrap Forge 1.20.1 port
 
 on:
-  push:
-    branches:
-      - agent/forge-1.20.1-port
-    paths:
-      - 'bootstrap/**'
   workflow_dispatch:
 
 permissions:
