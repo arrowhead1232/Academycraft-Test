@@ -102,11 +102,12 @@ remap.
   the expected Forge `mods.toml`, access transformer, mixin configs, assets,
   and data resources.
 - Parsed all JSON resources successfully and passed `git diff --check`.
-- The Gradle compile was attempted, but the wrapper could not download Gradle
-  8.12 because the preparation environment had no route to
-  `services.gradle.org`. This means the source is statically checked but not
-  compile-verified. Run the build command from README.md before installing the
-  resulting JAR.
+- Compile-verified `:forge:build` with Java 17 in GitHub Actions on 2026-08-15.
+  The successful run produced the distributable, sources, and Javadoc JARs.
+- Inspected the resulting `1.1.3-port.4` distributable and confirmed its Forge
+  47 / Minecraft 1.20.1 metadata, 38 skill icons, and compiled skill classes.
+- In-game client, dedicated-server, and multiplayer smoke testing remains
+  outstanding; compile success is not a claim of full 1.1.3 feature parity.
 
 ## Recommended next milestones
 
