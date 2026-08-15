@@ -1,0 +1,15 @@
+{
+  "item.academy.portable_developer": "便携能力开发机",
+  "item.academy.data_terminal": "数据终端",
+  "item.academy.constraint_ingot": "束能金属锭",
+  "item.academy.constraint_plate": "束能金属板",
+  "item.academy.wafer": "虚像硅晶圆",
+  "item.academy.imag_silicon_piece": "硅晶片",
+  "item.academy.data_chip": "数据芯片",
+  "item.academy.calc_chip": "计算芯片",
+  "item.academy.brain_component": "脑波分析模块",
+  "item.academy.info_component": "信息处理模块",
+  "item.academy.energy_unit": "能量单元",
+  "item.academy.energy_convert_component": "能量转换模块",
+  "block.academy.cat_engine": "吐司猫"
+}

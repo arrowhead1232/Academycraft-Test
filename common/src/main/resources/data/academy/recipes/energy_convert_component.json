@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": { "item": "academy:calc_chip" },
+    "E": { "item": "academy:energy_unit" },
+    "A": { "item": "academy:imagiphase_amethyst" }
+  },
+  "pattern": [
+    "C",
+    "E",
+    "A"
+  ],
+  "result": {
+    "item": "academy:energy_convert_component"
+  }
+}

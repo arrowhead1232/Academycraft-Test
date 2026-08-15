@@ -1,0 +1,42 @@
+package org.academy.internal.common.ability.builtin;
+
+public final class SkillNames {
+    public static final String RAILGUN = "railgun";
+    public static final String ARC_GENERATE = "arc_generate";
+    public static final String CURRENT_CHARGING = "charging";
+    public static final String MAGNETIC_MOVEMENT = "mag_movement";
+    public static final String MINE_DETECT = "mine_detect";
+    public static final String SELF_TELEPORT = "self_teleport";
+    public static final String DIM_FOLDING_THEOREM = "dim_folding_theorem";
+    public static final String MARK_TELEPORT = "mark_teleport";
+    public static final String FLESH_RIPPING = "flesh_ripping";
+    public static final String LOCATION_TELEPORT = "location_teleport";
+    public static final String SPACE_FLUCTUATION = "space_fluct";
+    public static final String SINGLE_HIGH_SPEED_ELECTRON_BEAM = "single_high_speed_electron_beam";
+    public static final String VECTOR_REFLECTION = "vector_reflection";
+    public static final String BLOODFLOW_REVERSE = "bloodflow_reverse";
+    public static final String STORM_WING = "storm_wing";
+    public static final String PLASMA_GENERATION = "plasma_generation";
+    public static final String KINETIC_ENERGY_APPLIED= "kinetic_energy_applied";
+    public static final String DIR_STRIKE = "dir_strike";
+    public static final String MAGNET_MANIPULATION = "magnet_manipulation";
+    public static final String VECTOR_ACCEL = "vector_accel";
+    public static final String BODY_INTENSIFY = "body_intensify";
+    public static final String THUNDER_BOLT = "thunder_bolt";
+    public static final String THUNDER_CLAP = "thunder_clap";
+    public static final String FLASHING = "flashing";
+    public static final String PENETRATE_TELEPORT = "penetrate_teleport";
+    public static final String SHIFT_TELEPORT = "shift_tp";
+    public static final String ELECTRON_BOMB = "electron_bomb";
+    public static final String LIGHT_SHIELD = "light_shield";
+    public static final String SCATTER_BOMB = "scatter_bomb";
+    public static final String JET_ENGINE = "jet_engine";
+    public static final String RADIATION_INTENSIFY = "rad_intensify";
+    public static final String MINE_RAY_BASIC = "mine_ray_basic";
+    public static final String RAY_BARRAGE = "ray_barrage";
+    public static final String MINE_RAY_EXPERT = "mine_ray_expert";
+    public static final String MINE_RAY_LUCK = "mine_ray_luck";
+    public static final String ELECTRON_MISSILE = "electron_missile";
+    public static final String GROUND_SHOCK = "ground_shock";
+    public static final String VECTOR_DEVIATION = "vec_deviation";
+}

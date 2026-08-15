@@ -1,0 +1,32 @@
+{
+  "targets": [
+    "mask_input_target",
+    "temp"
+  ],
+  "passes": [
+    {
+      "name": "academy:masked_blur",
+      "intarget": "minecraft:main",
+      "outtarget": "temp",
+      "auxtargets": [
+        { "name": "MaskSampler", "id": "mask_input_target" }
+      ],
+      "uniforms": [
+        { "name": "BlurDir", "values": [ 1.0, 0.0 ] },
+        { "name": "Radius", "values": [ 10.0 ] }
+      ]
+    },
+    {
+      "name": "academy:masked_blur",
+      "intarget": "temp",
+      "outtarget": "minecraft:main",
+      "auxtargets": [
+        { "name": "MaskSampler", "id": "mask_input_target" }
+      ],
+      "uniforms": [
+        { "name": "BlurDir", "values": [ 0.0, 1.0 ] },
+        { "name": "Radius", "values": [ 10.0 ] }
+      ]
+    }
+  ]
+}
