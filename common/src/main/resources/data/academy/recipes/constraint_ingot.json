@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": { "item": "minecraft:iron_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "M": { "item": "academy:imagiphase_metal" }
+  },
+  "pattern": [
+    "ARA",
+    "RMR",
+    "ARA"
+  ],
+  "result": {
+    "item": "academy:constraint_ingot",
+    "count": 4
+  }
+}
