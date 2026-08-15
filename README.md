@@ -79,6 +79,10 @@ The distributable JAR is written under `forge/build/output/`. The Gradle
 wrapper downloads Gradle and Forge dependencies on the first build, so an
 Internet connection is required.
 
+The `1.1.3-port.4` Forge build was compile-verified with Java 17 in GitHub
+Actions on 2026-08-15. The successful artifact contains the distributable,
+sources, and Javadoc JARs.
+
 Optional development integrations such as JEI, Jade, Oculus, and Embeddium are
 resolved by the development configuration; players should install only the
 mods they actually want to use.
