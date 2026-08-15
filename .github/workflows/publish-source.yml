@@ -1,0 +1,43 @@
+name: Publish reconstructed source
+
+on:
+  push:
+    branches:
+      - agent/forge-1.20.1-port
+    paths:
+      - '.github/workflows/publish-source.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out bootstrap branch
+        uses: actions/checkout@v4
+
+      - name: Reconstruct port source
+        shell: bash
+        run: |
+          source_dir="$RUNNER_TEMP/academycraft-source"
+          patch_file="$RUNNER_TEMP/academycraft-port.patch"
+          git clone --filter=blob:none https://github.com/AcademyCraft-Dev-Team/AcademyCraft-Reborn.git "$source_dir"
+          git -C "$source_dir" checkout --detach 677198bb7df5d313730e26e6f39e12dd116b9a78
+          base64 --decode bootstrap/port.patch.gz.b64 | gzip --decompress > "$patch_file"
+          git -C "$source_dir" apply --binary --whitespace=nowarn "$patch_file"
+
+      - name: Publish full source branch
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --orphan source-export
+          git rm -rf . || true
+          rsync -a --exclude=.git --exclude=.github/workflows "$RUNNER_TEMP/academycraft-source/" "$GITHUB_WORKSPACE/"
+          git add -A
+          git commit -m "feat: publish AcademyCraft Forge 1.20.1 port source"
+          git push --force origin HEAD:refs/heads/agent/forge-1.20.1-source
