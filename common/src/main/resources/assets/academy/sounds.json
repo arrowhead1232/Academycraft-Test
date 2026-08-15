@@ -1,0 +1,32 @@
+{
+  "coin": {
+    "subtitle": "academy.coin",
+    "sounds": [
+      "academy:item/coin"
+    ]
+  },
+  "railgun": {
+    "subtitle": "academy.railgun",
+    "sounds": [
+      "academy:ability/electromaster/skill/railgun"
+    ]
+  },
+  "arc_weak": {
+    "subtitle": "academy.arc_weak",
+    "sounds": [
+      "academy:ability/electromaster/skill/arc_weak"
+    ]
+  },
+  "vector_reflection": {
+    "subtitle": "academy.vector_reflection",
+    "sounds": [
+      "academy:ability/accelerator/skill/vector_reflection"
+    ]
+  },
+  "select": {
+    "subtitle": "academy.select",
+    "sounds": [
+      "academy:gui/select"
+    ]
+  }
+}

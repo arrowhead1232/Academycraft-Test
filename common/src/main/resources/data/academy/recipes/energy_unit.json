@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": { "item": "academy:constraint_plate" },
+    "A": { "item": "academy:imagiphase_amethyst" },
+    "D": { "item": "academy:data_chip" }
+  },
+  "pattern": [
+    " P ",
+    "PAP",
+    " D "
+  ],
+  "result": {
+    "item": "academy:energy_unit"
+  }
+}

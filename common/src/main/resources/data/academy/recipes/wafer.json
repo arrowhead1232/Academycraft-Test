@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": { "item": "minecraft:quartz" },
+    "M": { "item": "academy:imagiphase_metal" }
+  },
+  "pattern": [
+    "QQQ",
+    " M "
+  ],
+  "result": {
+    "item": "academy:wafer",
+    "count": 2
+  }
+}

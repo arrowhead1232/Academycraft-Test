@@ -1,0 +1,15 @@
+{
+  "item.academy.portable_developer": "Portable Developer",
+  "item.academy.data_terminal": "Data Terminal",
+  "item.academy.constraint_ingot": "Constraint Metal Ingot",
+  "item.academy.constraint_plate": "Constraint Metal Plate",
+  "item.academy.wafer": "Imag Silicon Wafer",
+  "item.academy.imag_silicon_piece": "Imag Silicon Piece",
+  "item.academy.data_chip": "Data Chip",
+  "item.academy.calc_chip": "Calculation Chip",
+  "item.academy.brain_component": "Brainwave Analyzer",
+  "item.academy.info_component": "Information Processor",
+  "item.academy.energy_unit": "Energy Unit",
+  "item.academy.energy_convert_component": "Energy Converter",
+  "block.academy.cat_engine": "Toast and Cat"
+}
