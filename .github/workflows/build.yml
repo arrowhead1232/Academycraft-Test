@@ -3,11 +3,10 @@ name: Build
 on:
   pull_request:
     branches:
-      - 1.20.1
+      - main
   push:
     branches:
-      - 1.20.1
-      - 'agent/**'
+      - main
     paths-ignore:
       - '**/*.md'
   workflow_dispatch:
